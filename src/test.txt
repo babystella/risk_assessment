@@ -1,0 +1,16 @@
+rostopic pub -r 10 /yolact_ros/detections yolact_ros_msgs/Detections "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: ''
+detections:
+- class_name: 'poison'
+  score: 5.5
+  distance: 1.5
+- class_name: 'corrosive'
+  score: 5.5
+  distance: 2.0
+- class_name: 'explosive'
+  score: 5.5
+  distance: 2.5"
